@@ -1,0 +1,81 @@
+*{
+padding: 0;
+margin: 0;
+color: #fff;
+box-sizing: border-box;
+}
+main{
+  font-family: 'Heebo', sans-serif;
+}
+.landing{
+  min-height: 100vh;
+  background: url("https://uchoice.pk/wp-content/uploads/2021/02/Airpod-Pro-Black-1-600x600.jpg");
+  background-size: cover;
+  opacity: 1.5;
+  padding: 0rem 5rem;
+  background-color: #969892;
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10VH;
+}
+.nav-links{
+  display: flex;
+  list-style: none;
+}
+.nav-links li{
+  padding-left: 8rem;
+  font-size: 1.2rem;
+}
+#logo{
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.big-text{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+}
+.intro{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider{
+  background-color: rgb(61, 61, 61);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+.introText{
+  color: rgb(233, 233, 233);
+  font-size: 2rem;
+  font-family: 'Heebo', sans-serif;
+}
+.hide{
+  background: black;
+  overflow: hidden;
+}
+.hide span{
+  transform: translateY(100%);
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+}
