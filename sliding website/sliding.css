@@ -9,6 +9,10 @@ main{
 }
 .landing{
   min-height: 100vh;
+  width: 80%;
+  position: absolute;
+  right: 0;
+  top: 0;
   background: url("https://uchoice.pk/wp-content/uploads/2021/02/Airpod-Pro-Black-1-600x600.jpg");
   background-size: cover;
   opacity: 1.5;
@@ -16,19 +20,98 @@ main{
   background-color: #969892;
 
 }
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 15VH;
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
-.nav-links{
-  display: flex;
-  list-style: none;
+html{
+  scroll-behavior: smooth;
 }
-.nav-links li{
-  padding-left: 8rem;
-  font-size: 1.2rem;
+.wrapper{
+  width: 110%;
+  margin: 0 auto;
+}
+.banner{
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(back.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.about-area,
+.portfolio-area,
+.contact-area{
+  height: 100vh;
+}
+.text-content h2{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 90px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0 5px 10px #000;
+}
+.side-navbar{
+  height: 100%;
+  width: 248px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.side-navbar a{
+  padding: 50px 10px 10px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+}
+.side-navbar a:hover{
+  color: #ddd;
+}
+.content-area{
+  margin-left: 230px;
+  padding: 0 10px;
+}
+#about{
+  background-color: darkorchid;
+}
+#contact{
+  background-color: dodgerblue;
+}
+#portfolio{
+  background-color: darksalmon;
+}
+
+.side-navbar{
+  height: 100%;
+  width: 248px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 0;
+}
+.side-navbar a{
+  padding: 50px 10px 10px 50px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+}
+.side-navbar a:hover{
+  color: #ddd;
 }
 #logo{
   font-family: 'Lobster', cursive;
